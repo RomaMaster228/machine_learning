@@ -1,0 +1,56 @@
+1715009754455 b22207ea760d info ClearML Task: created new task id=18ca6eac62a44f4ca9b8da111b68a0ca
+1715009760781 b22207ea760d info ClearML results page: https://app.clear.ml/projects/be71c1ccaa8c452e94dcb0ebdb322820/experiments/18ca6eac62a44f4ca9b8da111b68a0ca/output/log
+1715009761083 b22207ea760d error /usr/local/lib/python3.10/dist-packages/clearml/utilities/process/mp.py:622: RuntimeWarning:
+
+os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:135: UserWarning:
+
+Using 'weights' as positional parameter(s) is deprecated since 0.13 and may be removed in the future. Please use keyword parameter(s) instead.
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:223: UserWarning:
+
+Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=DeepLabV3_MobileNet_V3_Large_Weights.COCO_WITH_VOC_LABELS_V1`. You can also use `weights=DeepLabV3_MobileNet_V3_Large_Weights.DEFAULT` to get the most up-to-date weights.
+1715009766123 b22207ea760d info 2024-05-06 15:36:06,122 - clearml.Task - INFO - Storing jupyter notebook directly as code
+1715009844838 b22207ea760d info Using downloaded and verified file: ./VOCtrainval_11-May-2012.tar
+Extracting ./VOCtrainval_11-May-2012.tar to .
+1715009865576 b22207ea760d info Using downloaded and verified file: ./VOCtrainval_11-May-2012.tar
+Extracting ./VOCtrainval_11-May-2012.tar to .
+1715009880153 b22207ea760d error /usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:135: UserWarning:
+
+Using 'weights' as positional parameter(s) is deprecated since 0.13 and may be removed in the future. Please use keyword parameter(s) instead.
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:223: UserWarning:
+
+Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=DeepLabV3_MobileNet_V3_Large_Weights.COCO_WITH_VOC_LABELS_V1`. You can also use `weights=DeepLabV3_MobileNet_V3_Large_Weights.DEFAULT` to get the most up-to-date weights.
+1715009881367 b22207ea760d info 2024-05-06 15:38:01,366 - clearml.model - WARNING - Connecting multiple input models with the same name: `deeplabv3_mobilenet_v3_large-fc3c493d`. This might result in the wrong model being used when executing remotely
+1715009946325 b22207ea760d info ClearML Monitor: Could not detect iteration reporting, falling back to iterations as seconds-from-start
+1715010602003 b22207ea760d info Epoch 1/5, Train loss: 0.4372724179035979, Val loss: 0.3150097213603638, Val MIoU: 0.5319313097808288
+1715011314891 b22207ea760d info Epoch 2/5, Train loss: 0.3761692306464487, Val loss: 0.2862796855087464, Val MIoU: 0.5485786139850477
+1715012050108 b22207ea760d info Epoch 3/5, Train loss: 0.33908329289304756, Val loss: 0.30229014604464993, Val MIoU: 0.5424790193742597
+1715012766567 b22207ea760d info Epoch 4/5, Train loss: 0.32248092540463463, Val loss: 0.2750182892758768, Val MIoU: 0.5551682695106162
+1715013466737 b22207ea760d info IoU в среднем по датасету в развертке по классам: [0.84998205        nan        nan        nan        nan        nan
+        nan        nan        nan        nan        nan        nan
+        nan        nan        nan        nan        nan        nan
+        nan        nan        nan]
+Epoch 5/5, Train loss: 0.3004029135479302, Val loss: 0.27956081783542264, Val MIoU: 0.5526363703213908
+1715014119492 b22207ea760d info Using downloaded and verified file: ./VOCtrainval_11-May-2012.tar
+Extracting ./VOCtrainval_11-May-2012.tar to .
+1715014140054 b22207ea760d info Using downloaded and verified file: ./VOCtrainval_11-May-2012.tar
+Extracting ./VOCtrainval_11-May-2012.tar to .
+1715014156954 b22207ea760d error /usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:135: UserWarning:
+
+Using 'weights' as positional parameter(s) is deprecated since 0.13 and may be removed in the future. Please use keyword parameter(s) instead.
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:223: UserWarning:
+
+Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=DeepLabV3_MobileNet_V3_Large_Weights.COCO_WITH_VOC_LABELS_V1`. You can also use `weights=DeepLabV3_MobileNet_V3_Large_Weights.DEFAULT` to get the most up-to-date weights.
+1715014244064 b22207ea760d info Using downloaded and verified file: ./VOCtrainval_11-May-2012.tar
+Extracting ./VOCtrainval_11-May-2012.tar to .
+1715014265898 b22207ea760d info Using downloaded and verified file: ./VOCtrainval_11-May-2012.tar
+Extracting ./VOCtrainval_11-May-2012.tar to .
+1715014944093 b22207ea760d info Epoch 1/5, Train loss: 0.4498680965985105, Val loss: 0.3268442762667661, Val MIoU: 0.7106809405744559
+1715015568200 b22207ea760d info Epoch 2/5, Train loss: 0.38748324011030094, Val loss: 0.29536138818814206, Val MIoU: 0.7207779825825483
+1715016184036 b22207ea760d info Epoch 3/5, Train loss: 0.34241731725429575, Val loss: 0.2840597218946441, Val MIoU: 0.7135020235767938
+1715016797016 b22207ea760d info Epoch 4/5, Train loss: 0.31846596532669225, Val loss: 0.3091555426900203, Val MIoU: 0.7247082768362785
+1715017411257 b22207ea760d info IoU в среднем по датасету в развертке по классам: [0.84935117 0.81910044 0.68354508 0.80071197 0.7513905  0.66416808
+ 0.82371126 0.71526316 0.72848449 0.49221716 0.80569262 0.62473731
+ 0.7073251  0.78265751 0.77073746 0.63604116 0.67900887 0.8114953
+ 0.57376942 0.79193728 0.72350809]
+Epoch 5/5, Train loss: 0.30184565048888734, Val loss: 0.27051573525090794, Val MIoU: 0.725469211836928
